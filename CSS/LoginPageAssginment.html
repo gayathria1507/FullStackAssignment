@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image:url(LoginBackground.jpeg) ;
+            background-repeat: no-repeat;
+     
+            background-size: cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:95vh;
+        }
+        .container{
+            width: 400px;
+            height:450px;
+            background: rgba(0, 0, 0, 0.13);
+            border-radius: 5px;
+            box-shadow: 0 5px 30px #fcfcfc1a;
+            backdrop-filter: blur(7.6px);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px;
+        }
+        input{
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid white;
+            font-size:large;
+            color:black;
+            padding-top: 40px;
+            margin-bottom: 15px;
+            width: 80%;
+            outline: none;
+        }
+        ::placeholder{
+            color: rgb(24, 23, 23);
+            opacity:10;
+        }
+        button{
+            background-color: green;
+            width: 100px;
+            height:40px;
+            color: white;
+        }
+        img{
+            border-radius: 50%;
+            width: 150px; 
+            height: 150px; 
+            margin-top: -85px;
+        }
+        .terms{
+            padding: 0;
+            margin: 0;
+            width:auto;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="container">
+        <img src="Login_logo.png"> 
+        <h2>Login Window</h2>
+        <input type="email" placeholder="Email Address"><br>
+        <input type="password" placeholder="Password">
+        <br>
+       <p> <input type="checkbox" class="terms">Agree with <a href="#">Terms & Condition</a>
+        <br>
+        <button>Login</button>
+    </div>
+</center>
+</body>
+</html>
