@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+    <script>
+        function res(){
+            let a=parseInt(document.getElementById("n1").value)
+            let mul=1;
+            for(let i=1;i<=a;i++)
+            {
+                mul=mul*i;
+            }
+            document.getElementById("result").innerHTML="Factorial : "+mul;
+        }
+    </script>
+</head>
+<body>
+   <h2> Enter the Number : <input  placeholder="1" style="font-size: large;" id="n1" type="number" ></h2>
+    <button onclick="res()" style="padding: 5px;border: 3px solid black;font-size: medium;">Result</button>
+    <br><br>
+    <div id="result" style="font-size: x-large;font-weight: bold; color: green;"></div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+    <script>
+        function res()
+        {
+            let a=document.getElementById("s").value;
+            let k="";
+           
+                for(let j=a.length-1;j>=0;j--)
+                {
+                    k+=a.charAt(j);
+                }
+                if(k===a)
+                {
+                    document.getElementById("result").innerHTML="Palindrome"
+                }
+                else{
+                    document.getElementById("result").innerHTML="Not a Palindrome"
+                }
+            
+        }
+    </script>
+</head>
+<body>
+    Enter a String : <input type="text" id="s"><br>
+    <br>
+    <button onclick="res()">Palindrome or not</button>
+    <br>
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Web Page</title>
+    
+        <script>
+           function myFunction(){
+                document.write("<b>JavaScrip Function Example</b>");
+            }
+            function add(a,b){
+                let sum=a+b;
+                alert("addition : "+sum);
+            }
+            function sub(c,d){
+                let s=c-d;
+                alert("subtraction : "+s);
+            }
+
+            function mul(e,f){
+                let mul=e*f;
+                alert("Multiplication : "+mul);
+            }
+            function Div(g,h){
+                let div=g/h;
+                alert("Division : "+div);
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="myFunction()">
+            Click Me
+        </button>
+        <br>
+        <button onclick="add(10,20)">Addition</button>
+        <br>
+        <button onclick="sub(10,20)">Subtraction</button>
+        <br>
+        <button onclick="mul(10,20)">Multiplication</button>
+        <br>
+        <button onclick="Div(20,10)">Division</button>
+    </body>
+</html>

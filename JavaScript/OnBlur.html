@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+    <script>
+        function fact(){
+            let a=parseInt(document.getElementById("n1").value)
+            let mul=1;
+            for(let i=1;i<=a;i++)
+            {
+                mul=mul*i;
+            }
+            document.getElementById("result").innerHTML="Factorial : "+mul;
+        }
+    </script>
+</head>
+<body>
+   <h2> Enter the Number : <input  placeholder="0" style="font-size: large;" id="n1" type="number" onfocus="this.value=''" onblur="fact()"></h2>
+    <br>
+    <div id="result" style="font-size: x-large;font-weight: bold; color: green;"></div>
+</body>
+</html>
