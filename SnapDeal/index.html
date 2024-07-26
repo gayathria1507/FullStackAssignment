@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapdeal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+
+    <style>
+        *{
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-size: small;
+        }
+        body{
+            background-color: #f3f2f2;
+        }
+        .alert-danger{
+            background-color: rgb(180, 0, 15);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .sec{
+            display: flex;
+            gap:40px;
+        }
+        #top-container{
+            padding: 15px;
+            display: flex;
+            background-color: #e40046;
+            font-size: large;
+            gap: 15%;
+        }
+        #top-container div{
+            font-size: large;
+        }
+        #heading{
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: xx-large;
+        }
+        #search{
+            display: contents;
+        }
+        input{
+            padding: 4px;
+            width: 210%;
+            outline: none;
+            color: black;
+        }
+        button{
+            padding: 4px;
+            background-color: black;
+        }
+        .list-group {
+            color: black;
+            background-color: white;
+            max-width: 300px;
+            margin: 10px;
+            margin-left: 90px; 
+            border-radius: 5px;
+            
+        }
+        .list-group-heading {
+            font-weight: bold;
+            color: black;
+        }
+        .list-group-item {
+            padding: 10px;
+            color: black;
+        }
+        #container{
+            display: flex;
+        }
+        .images-main{
+            
+            margin: 20px;
+        }
+        #btn{
+            display: flex;
+        }
+        #btn input{
+            padding: 10px;
+            background-color: white;
+            border: none;
+        }
+        #btn input:hover{
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert-danger">
+        <div>Brand Waali Quality, Bazaar Waali Deal!</div>
+
+        <div class="sec">
+        <div>Impact@Snapdeal</div>
+        <div>Sell On Snapdeal</div>
+        <div>Download App</div>
+        <div>Donate For Elderly</div>
+        </div>
+    </div>
+
+    <div id="top-container">
+        <div id="heading">Snapdeal</div>
+        <div id="search">
+            <div><input type="text" placeholder="search product & brands"></div>
+            <div><button>Search</button></div> 
+        </div>
+        <div>cart <i class="fa fa-shopping-cart" style="font-size:24px"></i></div>
+        <div>Sigin<i class='fas fa-user-alt' style='font-size:24px'></i>  </div>
+    </div>
+
+<div id="container">
+    <div class="list-group shadow-lg hover">
+        <div class="list-group-item list-group-item-action disabled">Top CATEGORIES</div>
+        <div class="list-group-item list-group-item-action"> <img src="https://n1.sdlcdn.com/imgs/k/v/x/Men_sitenavigation-b972a.jpg" width="30" height="40"> Men's Fashion</div>
+        <div class="list-group-item list-group-item-action"><img src="https://n1.sdlcdn.com/imgs/k/v/x/WoMen_sitenav-5a8ca.jpg" width="30" height="40"> Women's Fashion</div>
+        <div class="list-group-item list-group-item-action"><img src="https://n1.sdlcdn.com/imgs/k/v/x/HOme_sitenavigation-d7a00.jpg" width="30" height="40"> Home & Kitchen</div>
+        <div class="list-group-item list-group-item-action"><img src="https://n4.sdlcdn.com/imgs/k/v/x/Toys_Sitenavigation-ef666.jpg" width="30" height="40"> Toy's Kids Fashion &</div>
+        <div class="list-group-item list-group-item-action"><img src="https://n2.sdlcdn.com/imgs/k/v/x/Beauty_Site_navigation-5f3be.jpg" width="30" height="40"> Beauty, Healthu & Daily</div>
+
+        <div class="list-group-item list-group-item-action disabled">More CATEGORIES</div>
+        <div class="list-group-item list-group-item-action">AUTOMOTIVES</div>
+        <div class="list-group-item list-group-item-action">Mobile & Accessories</div>
+        <div class="list-group-item list-group-item-action">Sports, Fitness & Outdoor</div>
+        <div class="list-group-item list-group-item-action">Computer & Gaming</div>
+        <div class="list-group-item list-group-item-action">Books, Media & Music</div>
+        <div class="list-group-item list-group-item-action">Hobbies</div>
+
+        <div class="list-group-item list-group-item-action disabled">TRENDING SEARCHES</div>
+        <div class="list-group-item list-group-item-action"><i class="fa fa-search" style="color:grey"></i> Kitchen Product</div>
+        <div class="list-group-item list-group-item-action"><i class="fa fa-search" style="color:grey"></i>  Shoes For Men</div>
+        <div class="list-group-item list-group-item-action"><i class="fa fa-search" style="color:grey"></i> Kurti Set</div>
+        <div class="list-group-item list-group-item-action"><i class="fa fa-search" style="color:grey"></i> Sandal Men</div>
+        <div class="list-group-item list-group-item-action"><i class="fa fa-search" style="color:grey"></i> Sport Shoe Men</div>
+    </div>
+
+    <div class="images-main">
+        <div>
+        <img src="https://n2.sdlcdn.com/imgs/k/s/i/ethnicwear-ef4d9.jpg">
+        </div>
+        <div id="btn">
+        <input type="button" value="ONDC">
+        <input type="button" value="BOB Card">
+        <input type="button" value="ETHNIC WEAR">
+        <input type="button" value="KITCHWARE">
+        <input type="button" value="HOME FURNISHING">
+        </div>
+        <div class="trending">
+            <div style="color: black;background-color: #f3f2f2;">
+               
+                </div>
+                <div> Shiv Trishul Damru Gold-plated Locket with Rudraksha Mala</div>
+    </div>
+</div>
+</body>
+</html>
