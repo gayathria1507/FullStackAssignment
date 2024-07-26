@@ -101,7 +101,7 @@
                 displaybox.value+=value;
             }
         }
-        //deleting the recent entered number
+      
         function del(){
             var displaybox=document.getElementById("displaybox")
             displaybox.value=displaybox.value.slice(0,-1)
@@ -118,14 +118,7 @@
             } 
             catch (error) 
             {
-                if (error instanceof SyntaxError) 
-                {
                     document.getElementById("displaybox").value = 'Syntax Error';
-                } 
-                else 
-                {
-                    document.getElementById("displaybox").value = 'Error: ' + error.message;
-                }
             }
         }
 
